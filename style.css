@@ -19,11 +19,6 @@ p {
     color: #4e4e4e;
 }
 
-/* .container1 {
-    padding: 50px 230px;
-    width: 100%;
-} */
-
 /* banner styles */
 .banner {
     width: 100%;
@@ -113,4 +108,45 @@ p {
 .key-success-content li {
     line-height: 37px;
     color: #4e4e4e;
+}
+
+/* My plan section styles */
+.my-plan-main {
+    padding: 0 230px;
+    margin-bottom: 130px;
+}
+
+.my-plan-main h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flexible-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plan-card img {
+    height: auto;
+    width: 92px;
+}
+
+.plan-card h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.plan-card p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px
 }
