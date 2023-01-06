@@ -132,6 +132,11 @@ p {
     color: #4e4e4e;
 }
 
+.key-success-image {
+    height: 100%;
+    width: auto;
+}
+
 /* My plan section styles */
 .my-plan-main {
     padding: 0 230px;
